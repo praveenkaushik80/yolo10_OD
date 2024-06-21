@@ -3,6 +3,7 @@ import cv2
 import numpy as np
 import PIL
 from pathlib import Path
+import pandas as pd
 
 # Local Modules
 import settings
