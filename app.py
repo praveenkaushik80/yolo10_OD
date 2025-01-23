@@ -17,6 +17,8 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Insert the logo at the top of the app
+st.image("mcg_brandlogo.webp", width=100)  # Adjust the width as needed
 # Main page heading
 st.title("Object Detection")
 
