@@ -8,7 +8,8 @@ from pathlib import Path
 import settings
 import helper
 from helper import _display_detected_frames  # Ensure this import
-
+import warnings
+warnings.filterwarnings("ignore")
 # Setting page layout
 st.set_page_config(
     page_title="Object Detection",
